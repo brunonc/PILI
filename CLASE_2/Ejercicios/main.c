@@ -38,9 +38,9 @@ int main() {
     acumulador = auxiliarInt;
 
     // Solicito el resto de los numeros
-    for(i=0;i<4;i++) {
+    for(i = 0; i < 4; i++) {
         printf("Ingrese un numero: ");
-        scanf("%d",&auxiliarInt);
+        scanf("%d", &auxiliarInt);
         acumulador = acumulador + auxiliarInt;
 
         if(auxiliarInt > maximo) {
